@@ -1,0 +1,8 @@
+Strategy,Beats 60/40 OOS (Sharpe AND CAGR),Beats 60/40 OOS on Sharpe only,OOS Sharpe > 1.0,Full-period MaxDD < 30%,Beats 60/40 Sharpe in IS too,Beats 60/40 Sharpe in >= 4 of 6 decades,Median grid variant beats 60/40 OOS Sharpe,Not single-asset,Survives 2x costs (OOS Sharpe > 60/40),Score (of 9),HIGH QUALITY (all hard criteria)
+S1 Trend (TSMOM),False,False,False,True,True,True,False,True,False,4,False
+S2 Dual Momentum,False,False,False,False,True,False,False,True,False,2,False
+S3 Vol-Managed Equity,False,False,False,False,True,True,False,False,False,2,False
+S4 Risk Parity,False,False,False,True,True,False,False,True,False,3,False
+S5 Mean Reversion,False,False,False,True,True,False,False,False,False,2,False
+S6 Valuation (ECY),True,True,False,False,True,True,False,False,True,5,False
+S7 Turn-of-Month,False,False,False,True,False,False,False,False,False,1,False

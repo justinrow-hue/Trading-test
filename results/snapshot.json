@@ -1,0 +1,60 @@
+{
+ "as_of_prices": "2026-09-25",
+ "VIX": 14.21,
+ "VIX date": "2026-09-22",
+ "VIX percentile since 1990": 0.2640655313645182,
+ "US 10y yield (monthly avg)": 4.6,
+ "10y date": "2026-07-01",
+ "10y 12m change (pp)": 0.20999999999999996,
+ "CPI YoY": 0.03712958105838848,
+ "CPI date": "2026-08-01",
+ "ECY latest": 0.015674578540162944,
+ "ECY date": "2023-09",
+ "ECY percentile": 0.25234192037470726,
+ "US_EQ 21d realised vol": 0.10813448298164052,
+ "Split date": "2009-12-21",
+ "Start": "1971-01-04",
+ "End": "2026-09-25",
+ "N trials": 98,
+ "live_targets": {
+  "S1 Trend (TSMOM)": {
+   "decision_date": "2026-09-25",
+   "US_EQ": 0.162,
+   "GL_EQ": 0.15,
+   "GOLD": 0.076,
+   "CMDTY": 0.083,
+   "CASH": 0.53
+  },
+  "S2 Dual Momentum": {
+   "decision_date": "2026-09-25",
+   "US_EQ": 0.5,
+   "CMDTY": 0.5
+  },
+  "S3 Vol-Managed Equity": {
+   "decision_date": "2026-09-25",
+   "US_EQ": 1.0
+  },
+  "S4 Risk Parity": {
+   "decision_date": "2026-09-25",
+   "US_EQ": 0.162,
+   "GL_EQ": 0.15,
+   "UST_7_10": 0.348,
+   "UST_20P": 0.182,
+   "GOLD": 0.076,
+   "CMDTY": 0.083
+  },
+  "S5 Mean Reversion": {
+   "decision_date": "2026-09-25",
+   "CASH": 1.0
+  },
+  "S6 Valuation (ECY)": {
+   "decision_date": "2023-09-29",
+   "US_EQ": 0.451,
+   "UST_7_10": 0.549
+  },
+  "S7 Turn-of-Month": {
+   "decision_date": "2026-09-25",
+   "CASH": 1.0
+  }
+ }
+}
